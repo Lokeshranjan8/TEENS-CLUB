@@ -1,0 +1,401 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #123a61;
+    color: #333;
+}
+
+#up{
+    background-color: #061227;
+}
+.container {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(66, 66, 210, 0.1);
+}
+
+h1,
+h2,
+h3 {
+    color: #007bff;
+    margin-top: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+.form-control {
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+.timetable-section {
+    margin-top: 10px;
+}
+
+.animated-text {
+    overflow: hidden; 
+    white-space: nowrap; 
+    animation: typing 5s steps(40) forwards; 
+}
+@keyframes typing {
+    from {
+        width: 0; 
+    }
+    to {
+        width: 100%;
+    }
+}
+.cont{
+   
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+.menuup{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+
+}
+.logo{
+    color: rgb(25, 244, 244);
+    font-size:40px ;
+}
+
+.logo span{
+    color: var(--color-primary);
+}
+.menuup ul{
+    list-style: none;
+    display: flex;
+}
+.menuup ul li{
+    padding: 10px 30px;
+}
+.menuup ul li a{
+    color: #f1f1f1;
+    text-decoration: none;
+    font-size:20px;
+}
+
+
+.photoo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.photoo img {
+    width: 200px;
+    height: 200px; 
+    margin-bottom: 20px;
+    margin-top: 20px
+}
+
+
+.pp1{
+    
+    border: radius 10%;
+    font-weight: bold;
+    
+
+}
+
+
+
+
+
+
+
+  .grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 10px;
+  }
+
+  .grid-item {
+      text-align: center;
+  }
+
+  .grid-item img {
+      width: 210px;
+      height: auto;
+  }
+
+body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+}
+
+
+#conti{
+    background-color: rgb(0, 0, 0);
+}
+.container {
+    background-color: #fffafa;
+    padding: 20px;
+    border-radius: ;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer .footer-contact,
+.footer .footer-link,
+.footer .footer-newsletter {
+    position: relative;
+    margin-bottom: 50px;
+    color: #ffffff;
+}
+
+.footer .footer-contact h2,
+.footer .footer-link h2,
+.footer .footer-newsletter h2 {
+    position: relative;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    font-size: 22px;
+    font-weight: 700;
+    color: #fbaf32;
+}
+
+.footer .footer-contact h2::after,
+.footer .footer-link h2::after,
+.footer .footer-newsletter h2::after {
+    position: absolute;
+    content:" " ;
+    width: 45px;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background: #f8f414;
+}
+.footer .footer-link a {
+    display: block;
+    margin-bottom: 20px;
+    color: #ffffff;
+    transition: .3s;
+}
+.footer .footer-link a::before {
+    position: relative;
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+    color: #fbaf32;
+}
+.footer .footer-contact p i {
+    width: 25px;
+    color: #fbaf32;
+}
+.footer .footer-social {
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+}
+.footer .footer-social a {
+    display: inline-block;
+    margin-right: 5px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000000;
+    border-radius: 35px;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+#nn{
+    margin-top: 20px;
+}
+
+
+
+.body {
+    font-family: Arial, sans-serif;
+    background-color:#123a61;
+    color: #333;
+    margin: 0;
+}
+
+.container {rgb(98, 122, 147)rgb(36, 70, 103)
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.grid-item {
+    text-align: center;
+}
+
+.grid-item img {
+    width: 210px;
+    height: auto;
+}
+
+
+.menuup {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+.menuup ul {
+    list-style: none;
+    display: flex;
+}
+
+.menuup ul li {
+    padding: 10px 30px;
+}
+
+.menuup ul li a {
+    color: #f1f1f1;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.timetable-section {
+    margin-top: 10px;
+}
+
+
+
+
+
+
+/* cmnty */
+.cmnt{
+    font-weight: bold;
+
+}
+#new {
+    background-color: #000000;
+  
+    max-height: 100%;
+}
+
+.borderr {
+    height: 200px;
+    width: 300px;
+    border: 5px solid #edeaea;
+}
+
+
+.s {
+    margin-right: 20px; 
+    color: #000000;
+    background-color:#cdd0db;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   
+}
+
+
+
+
+.bottom {
+    padding: 20px; 
+    text-align: center;
+   
+}
+
+
+.btmunder {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding:auto; 
+}
+
+
+
+.spacing{
+    margin-top: 0px;
+    margin-bottom: 55px;
+
+}
+.cen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+   
+}
+#txtdesign{
+    color: #da0000;
+    font-size: 30px;
+    font-weight: bold
+}
+#txt{
+    font-weight: bold;
+}
+#txt1 {
+    font-size: 20px;
+    font-weight: bold;
+    color: blue; 
+}
+
+#txt1 span {
+    font-size: 14px; /* Adjust font size */
+    font-style: italic; /* Make it italic */
+    color: rgb(234, 7, 158); /* Change text color */
+}
+.s1{
+    margin-right: 20px; 
+    color: #000000;
+    background-color:#000000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    width: 300px;
+    height: 400px;
+
+}
+#neww{
+    max-width: fit-content;
+    max-height: fit-content;
+    margin-top: 10px;
+    background-color: #061227;
+
+}
+
+/* cmnty */
+
+
+
+
+.fd{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+}
+.bld{
+    font-weight:bold;
+    font-size: 80px;  
+}
+
+
+.image-container {
+    position: relative;
+    
+}
